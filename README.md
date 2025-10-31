@@ -308,6 +308,17 @@ Every push to `main` branch automatically:
 
 See [CI_CD_GUIDE.md](CI_CD_GUIDE.md) for full details.
 
+### AI Agents & Automation
+
+This project uses **intelligent automation agents** for:
+- 🔍 Recipe validation
+- 📋 Index management
+- 🏗️ Build automation
+- 🔎 Smart search
+- 🚀 CI/CD orchestration
+
+See [AGENTS.md](AGENTS.md) for complete agent documentation.
+
 1. Add category in `scripts/config.js`:
 
 ```javascript
