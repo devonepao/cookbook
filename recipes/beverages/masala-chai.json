@@ -1,0 +1,32 @@
+{
+    "id": "masala-chai",
+    "title": "Masala Chai",
+    "category": "beverages",
+    "description": "Aromatic Indian spiced tea",
+    "prepTime": "5 mins",
+    "cookTime": "10 mins",
+    "servings": "2",
+    "featured": false,
+    "images": [
+        "https://images.unsplash.com/photo-1597318112073-ca2b3b7db4ea?w=800&q=80"
+    ],
+    "ingredients": [
+        "2 cups water",
+        "1 cup milk",
+        "2 tsp black tea leaves",
+        "2 green cardamom pods, crushed",
+        "2 cloves",
+        "1-inch cinnamon stick",
+        "1/2 inch fresh ginger, crushed",
+        "2 tsp sugar (or to taste)"
+    ],
+    "instructions": [
+        "Bring water to boil in a saucepan.",
+        "Add crushed ginger, cardamom, cloves, and cinnamon.",
+        "Let it boil for 2-3 minutes to infuse the spices.",
+        "Add tea leaves and boil for another 2 minutes.",
+        "Add milk and sugar, bring to a boil.",
+        "Simmer for 2-3 minutes.",
+        "Strain into cups and serve hot."
+    ]
+}

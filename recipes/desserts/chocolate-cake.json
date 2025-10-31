@@ -1,0 +1,36 @@
+{
+    "id": "chocolate-cake",
+    "title": "Rich Chocolate Cake",
+    "category": "desserts",
+    "description": "A moist and decadent chocolate cake that melts in your mouth",
+    "prepTime": "20 mins",
+    "cookTime": "35 mins",
+    "servings": "8",
+    "featured": true,
+    "images": [
+        "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+    ],
+    "ingredients": [
+        "2 cups all-purpose flour",
+        "2 cups sugar",
+        "3/4 cup unsweetened cocoa powder",
+        "2 tsp baking soda",
+        "1 tsp baking powder",
+        "1 tsp salt",
+        "2 eggs",
+        "1 cup buttermilk",
+        "1 cup strong black coffee, cooled",
+        "1/2 cup vegetable oil",
+        "1 tsp vanilla extract"
+    ],
+    "instructions": [
+        "Preheat oven to 350°F (175°C). Grease and flour two 9-inch round cake pans.",
+        "In a large bowl, combine flour, sugar, cocoa, baking soda, baking powder, and salt.",
+        "Add eggs, buttermilk, coffee, oil, and vanilla. Beat on medium speed for 2 minutes.",
+        "Pour batter evenly into prepared pans.",
+        "Bake for 30-35 minutes or until a toothpick inserted in center comes out clean.",
+        "Cool in pans for 10 minutes, then remove to wire racks to cool completely.",
+        "Frost as desired and serve."
+    ],
+    "notes": "The coffee enhances the chocolate flavor without making it taste like coffee. You can substitute with hot water if preferred."
+}

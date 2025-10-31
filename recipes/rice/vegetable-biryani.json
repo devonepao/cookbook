@@ -1,0 +1,41 @@
+{
+    "id": "vegetable-biryani",
+    "title": "Vegetable Biryani",
+    "category": "rice",
+    "description": "Aromatic rice layered with spiced vegetables",
+    "prepTime": "30 mins",
+    "cookTime": "45 mins",
+    "servings": "6",
+    "featured": true,
+    "images": [
+        "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80"
+    ],
+    "ingredients": [
+        "2 cups basmati rice",
+        "2 cups mixed vegetables (carrots, beans, peas, potatoes)",
+        "2 onions, sliced",
+        "2 tomatoes, chopped",
+        "1 cup yogurt",
+        "2 tbsp ginger-garlic paste",
+        "1 tsp red chili powder",
+        "1/2 tsp turmeric",
+        "1 tsp garam masala",
+        "Whole spices (bay leaves, cinnamon, cardamom, cloves)",
+        "Fresh mint and coriander leaves",
+        "Saffron soaked in milk",
+        "4 tbsp ghee or oil",
+        "Salt to taste"
+    ],
+    "instructions": [
+        "Wash and soak rice for 30 minutes.",
+        "Heat ghee, add whole spices and half the onions. Fry until golden.",
+        "Add ginger-garlic paste, tomatoes, and cook until soft.",
+        "Add vegetables, yogurt, spices, and salt. Cook for 10 minutes.",
+        "In another pot, boil water with salt and whole spices.",
+        "Add rice and cook until 70% done. Drain.",
+        "Layer half the rice over vegetables, sprinkle herbs and saffron milk.",
+        "Add remaining rice, more herbs, and fried onions.",
+        "Cover and cook on low heat for 20 minutes.",
+        "Let it rest for 5 minutes before serving."
+    ]
+}

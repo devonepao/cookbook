@@ -1,0 +1,36 @@
+{
+    "id": "tomato-sauce",
+    "title": "Homemade Tomato Sauce",
+    "category": "sauces",
+    "description": "Fresh, flavorful tomato sauce perfect for pasta",
+    "prepTime": "10 mins",
+    "cookTime": "30 mins",
+    "servings": "4",
+    "featured": false,
+    "images": [
+        "https://images.unsplash.com/photo-1627662168781-d0e6d6645b2e?w=800&q=80"
+    ],
+    "ingredients": [
+        "2 lbs fresh tomatoes (or 28 oz canned)",
+        "4 cloves garlic, minced",
+        "1 onion, finely chopped",
+        "2 tbsp olive oil",
+        "1 tsp dried basil",
+        "1 tsp dried oregano",
+        "1/2 tsp red pepper flakes (optional)",
+        "1 tsp sugar",
+        "Salt and black pepper to taste",
+        "Fresh basil leaves"
+    ],
+    "instructions": [
+        "If using fresh tomatoes, blanch, peel, and chop them.",
+        "Heat olive oil in a large pan over medium heat.",
+        "Sauté onions until translucent, about 5 minutes.",
+        "Add garlic and cook for 1 minute until fragrant.",
+        "Add tomatoes, herbs, sugar, salt, and pepper.",
+        "Bring to a simmer and cook for 20-25 minutes, stirring occasionally.",
+        "For a smooth sauce, blend with an immersion blender.",
+        "Adjust seasoning and add fresh basil before serving."
+    ],
+    "notes": "This sauce can be stored in the refrigerator for up to a week or frozen for 3 months."
+}

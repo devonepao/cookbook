@@ -1,0 +1,38 @@
+{
+    "id": "garlic-naan",
+    "title": "Garlic Naan",
+    "category": "breads",
+    "description": "Soft, fluffy Indian flatbread topped with garlic",
+    "prepTime": "2 hours",
+    "cookTime": "15 mins",
+    "servings": "6",
+    "featured": false,
+    "images": [
+        "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+    ],
+    "ingredients": [
+        "2 cups all-purpose flour",
+        "1 tsp sugar",
+        "1/2 tsp salt",
+        "1/2 tsp baking powder",
+        "1/4 tsp baking soda",
+        "2 tbsp yogurt",
+        "2 tbsp milk",
+        "2 tbsp oil",
+        "1/2 cup warm water",
+        "4 cloves garlic, minced",
+        "Fresh coriander, chopped",
+        "Butter for brushing"
+    ],
+    "instructions": [
+        "Mix flour, sugar, salt, baking powder, and baking soda.",
+        "Add yogurt, milk, and oil. Mix well.",
+        "Gradually add warm water and knead into a soft dough.",
+        "Cover and let rest for 2 hours.",
+        "Divide dough into 6 portions and roll into oval shapes.",
+        "Sprinkle minced garlic and coriander on top, press gently.",
+        "Heat a tawa or skillet, place naan and cook until bubbles form.",
+        "Flip and cook the other side.",
+        "Brush with butter and serve hot."
+    ]
+}

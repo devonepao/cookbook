@@ -1,0 +1,13 @@
+# Rice Category
+
+This folder contains images for rice-based recipes.
+
+## Current Recipes
+
+- vegetable-biryani
+
+## Adding New Rice Recipes
+
+1. Create a new folder with your recipe ID
+2. Add images to that folder
+3. Update `scripts/config.js` with the recipe details

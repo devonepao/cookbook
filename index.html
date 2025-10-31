@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Cookbook">
+    <meta name="description" content="A beautiful cookbook with delicious recipes following Apple's Design System">
+    <meta name="theme-color" content="#007AFF">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="icon-180.png">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Cookbook - Delicious Recipes">
+    <meta property="og:description" content="A beautiful cookbook with delicious recipes">
+    <meta property="og:type" content="website">
+    
+    <title>Cookbook - Delicious Recipes</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Header with glassmorphism -->
+    <header class="glass-header">
+        <div class="safe-area-top"></div>
+        <div class="header-content">
+            <h1 class="header-title">Cookbook</h1>
+            <p class="header-subtitle">Delicious recipes, beautifully crafted</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Search Bar -->
+            <div class="search-container">
+                <div class="search-box glass">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="Search recipes..." class="search-input">
+                </div>
+            </div>
+
+            <!-- Categories Grid -->
+            <section class="categories-section">
+                <h2 class="section-title">Categories</h2>
+                <div class="categories-grid" id="categoriesGrid">
+                    <!-- Categories will be loaded dynamically -->
+                </div>
+            </section>
+
+            <!-- Featured Recipes -->
+            <section class="featured-section">
+                <h2 class="section-title">Featured Recipes</h2>
+                <div class="recipes-grid" id="featuredRecipes">
+                    <!-- Featured recipes will be loaded dynamically -->
+                </div>
+            </section>
+
+            <!-- All Recipes -->
+            <section class="all-recipes-section">
+                <h2 class="section-title">All Recipes</h2>
+                <div class="recipes-grid" id="allRecipes">
+                    <!-- All recipes will be loaded dynamically -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Safe area for home indicator -->
+    <div class="safe-area-bottom"></div>
+
+    <script src="scripts/config.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Add a New Recipe</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .step {
+            background: #e8f5e9;
+            padding: 15px;
+            margin: 20px 0;
+            border-left: 4px solid #4caf50;
+        }
+    </style>
+</head>
+<body>
+    <h1>📝 How to Add a New Recipe</h1>
+    
+    <p><strong>Each recipe is now stored in its own JSON file!</strong></p>
+    
+    <div class="step">
+        <h2>Step 1: Create Your Recipe File</h2>
+        <p>Copy <code>recipes/recipe-template.json</code> to your category folder:</p>
+        <pre>recipes/desserts/my-recipe.json
+recipes/beverages/my-recipe.json
+recipes/gravy/my-recipe.json
+recipes/rice/my-recipe.json
+recipes/breads/my-recipe.json
+recipes/sauces/my-recipe.json</pre>
+    </div>
+    
+    <div class="step">
+        <h2>Step 2: Fill in the Recipe Details</h2>
+        <p>Edit your JSON file with this structure:</p>
+        <pre><code>{
+    "id": "your-recipe-id",
+    "title": "Your Recipe Name",
+    "category": "desserts",
+    "description": "A brief, appetizing description",
+    "prepTime": "15 mins",
+    "cookTime": "30 mins",
+    "servings": "4",
+    "featured": false,
+    "images": [
+        "recipes/category/recipe-id/image1.jpg"
+    ],
+    "ingredients": [
+        "1 cup ingredient one",
+        "2 tablespoons ingredient two"
+    ],
+    "instructions": [
+        "Step 1: First instruction",
+        "Step 2: Second instruction"
+    ],
+    "notes": "Optional tips and notes"
+}</code></pre>
+    </div>
+    
+    <div class="step">
+        <h2>Step 3: Register Your Recipe</h2>
+        <p>Open <code>scripts/config.js</code> and add to the <code>recipeFiles</code> array:</p>
+        <pre><code>recipeFiles: [
+    'desserts/chocolate-cake',
+    'desserts/your-recipe-id',  ← Add this line
+    'beverages/mango-lassi',
+    // ... other recipes
+]</code></pre>
+    </div>
+    
+    <div class="step">
+        <h2>Step 4: Add Images (Optional)</h2>
+        <ol>
+            <li>Create folder: <code>recipes/category/your-recipe-id/</code></li>
+            <li>Add images: <code>image1.jpg, image2.jpg</code></li>
+            <li>Update JSON: <code>"images": ["recipes/category/your-recipe-id/image1.jpg"]</code></li>
+        </ol>
+    </div>
+    
+    <h2>✅ Quick Checklist</h2>
+    <ul>
+        <li>✅ Created JSON file in correct category folder</li>
+        <li>✅ Used unique recipe ID (lowercase with hyphens)</li>
+        <li>✅ Filled in all required fields</li>
+        <li>✅ Added to <code>recipeFiles</code> in config.js</li>
+        <li>✅ Tested JSON syntax (no errors)</li>
+        <li>✅ Refreshed browser to see recipe</li>
+    </ul>
+    
+    <h2>📋 Required Fields</h2>
+    <ul>
+        <li><strong>id</strong>: Unique identifier (e.g., "chocolate-chip-cookies")</li>
+        <li><strong>title</strong>: Recipe name</li>
+        <li><strong>category</strong>: desserts, beverages, gravy, rice, breads, or sauces</li>
+        <li><strong>description</strong>: Short description (1-2 sentences)</li>
+        <li><strong>prepTime</strong>: Preparation time</li>
+        <li><strong>cookTime</strong>: Cooking time</li>
+        <li><strong>servings</strong>: Number of servings</li>
+        <li><strong>ingredients</strong>: Array of ingredient strings</li>
+        <li><strong>instructions</strong>: Array of step-by-step instructions</li>
+    </ul>
+    
+    <h2>🎨 Optional Fields</h2>
+    <ul>
+        <li><strong>featured</strong>: Show on home page (true/false)</li>
+        <li><strong>images</strong>: Array of image URLs or paths</li>
+        <li><strong>notes</strong>: Cooking tips or storage instructions</li>
+    </ul>
+    
+    <h2>💡 Tips</h2>
+    <ul>
+        <li>Use <a href="https://jsonlint.com/">JSONLint</a> to validate your JSON</li>
+        <li>Keep IDs lowercase with hyphens (kebab-case)</li>
+        <li>One action per instruction step</li>
+        <li>Always include measurements in ingredients</li>
+        <li>Use high-quality images (800x600px recommended)</li>
+    </ul>
+    
+    <h2>🔍 Examples</h2>
+    <p>Check these files for complete examples:</p>
+    <ul>
+        <li><code>recipes/desserts/chocolate-cake.json</code></li>
+        <li><code>recipes/beverages/mango-lassi.json</code></li>
+        <li><code>recipes/gravy/butter-chicken.json</code></li>
+    </ul>
+    
+    <hr>
+    <p><strong>Happy Cooking! 🍳</strong></p>
+</body>
+</html>
+    

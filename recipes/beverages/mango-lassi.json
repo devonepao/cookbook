@@ -1,0 +1,30 @@
+{
+    "id": "mango-lassi",
+    "title": "Mango Lassi",
+    "category": "beverages",
+    "description": "A refreshing Indian yogurt-based mango drink",
+    "prepTime": "5 mins",
+    "cookTime": "0 mins",
+    "servings": "2",
+    "featured": true,
+    "images": [
+        "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=800&q=80"
+    ],
+    "ingredients": [
+        "1 cup ripe mango chunks",
+        "1 cup plain yogurt",
+        "1/2 cup milk",
+        "2 tbsp sugar (or to taste)",
+        "1/4 tsp cardamom powder",
+        "Ice cubes",
+        "Pinch of saffron (optional)"
+    ],
+    "instructions": [
+        "Add mango chunks, yogurt, milk, sugar, and cardamom to a blender.",
+        "Blend until smooth and creamy.",
+        "Add ice cubes and blend again.",
+        "Pour into glasses and garnish with saffron strands if desired.",
+        "Serve immediately."
+    ],
+    "notes": "You can use fresh or frozen mangoes. Adjust sugar based on the sweetness of your mangoes."
+}

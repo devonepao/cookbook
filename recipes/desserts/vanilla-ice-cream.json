@@ -1,0 +1,29 @@
+{
+    "id": "vanilla-ice-cream",
+    "title": "Homemade Vanilla Ice Cream",
+    "category": "desserts",
+    "description": "Creamy, smooth vanilla ice cream made from scratch",
+    "prepTime": "15 mins",
+    "cookTime": "4 hours",
+    "servings": "6",
+    "featured": false,
+    "images": [
+        "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80"
+    ],
+    "ingredients": [
+        "2 cups heavy cream",
+        "1 cup whole milk",
+        "3/4 cup sugar",
+        "1 vanilla bean (or 2 tsp vanilla extract)",
+        "Pinch of salt"
+    ],
+    "instructions": [
+        "Split vanilla bean lengthwise and scrape out seeds.",
+        "Combine cream, milk, sugar, vanilla seeds and pod, and salt in a saucepan.",
+        "Heat over medium heat until sugar dissolves, stirring occasionally.",
+        "Remove from heat and let cool to room temperature.",
+        "Remove vanilla pod and refrigerate mixture for at least 2 hours.",
+        "Pour into ice cream maker and churn according to manufacturer instructions.",
+        "Transfer to freezer-safe container and freeze for 2-4 hours until firm."
+    ]
+}

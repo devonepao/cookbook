@@ -1,0 +1,13 @@
+# Gravy Category
+
+This folder contains images for gravy-based recipes.
+
+## Current Recipes
+
+- butter-chicken
+
+## Adding New Gravy Recipes
+
+1. Create a new folder with your recipe ID
+2. Add images to that folder
+3. Update `scripts/config.js` with the recipe details

@@ -1,0 +1,40 @@
+{
+    "id": "butter-chicken",
+    "title": "Butter Chicken",
+    "category": "gravy",
+    "description": "Creamy tomato-based chicken curry",
+    "prepTime": "30 mins",
+    "cookTime": "40 mins",
+    "servings": "4",
+    "featured": true,
+    "images": [
+        "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800&q=80"
+    ],
+    "ingredients": [
+        "500g boneless chicken, cubed",
+        "1 cup yogurt",
+        "2 tbsp ginger-garlic paste",
+        "1 tsp red chili powder",
+        "1/2 tsp turmeric",
+        "1 tsp garam masala",
+        "Salt to taste",
+        "3 tbsp butter",
+        "1 onion, finely chopped",
+        "2 cups tomato puree",
+        "1/2 cup cream",
+        "1 tbsp kasuri methi (dried fenugreek leaves)",
+        "1 tsp sugar"
+    ],
+    "instructions": [
+        "Marinate chicken with yogurt, half the ginger-garlic paste, chili powder, turmeric, and salt for 30 minutes.",
+        "Heat 2 tbsp butter in a pan and cook chicken until done. Set aside.",
+        "In the same pan, add remaining butter and sauté onions until golden.",
+        "Add remaining ginger-garlic paste and cook for a minute.",
+        "Add tomato puree and cook for 10 minutes until oil separates.",
+        "Add garam masala, kasuri methi, and sugar.",
+        "Add cream and mix well.",
+        "Add cooked chicken and simmer for 5-7 minutes.",
+        "Serve hot with naan or rice."
+    ],
+    "notes": "For a richer flavor, you can use cashew paste in the gravy."
+}

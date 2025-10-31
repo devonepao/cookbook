@@ -1,0 +1,25 @@
+{
+    "id": "recipe-id-here",
+    "title": "Recipe Title Here",
+    "category": "desserts",
+    "description": "A brief, appetizing description of your recipe",
+    "prepTime": "15 mins",
+    "cookTime": "30 mins",
+    "servings": "4",
+    "featured": false,
+    "images": [
+        "recipes/category/recipe-id/image1.jpg",
+        "recipes/category/recipe-id/image2.jpg"
+    ],
+    "ingredients": [
+        "1 cup ingredient one",
+        "2 tablespoons ingredient two",
+        "1 teaspoon ingredient three"
+    ],
+    "instructions": [
+        "Step 1: First instruction with details",
+        "Step 2: Second instruction with details",
+        "Step 3: Continue with more steps"
+    ],
+    "notes": "Optional: Add any cooking tips, substitutions, or storage instructions here"
+}
