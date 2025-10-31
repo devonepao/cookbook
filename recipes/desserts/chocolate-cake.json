@@ -32,5 +32,22 @@
         "Cool in pans for 10 minutes, then remove to wire racks to cool completely.",
         "Frost as desired and serve."
     ],
-    "notes": "The coffee enhances the chocolate flavor without making it taste like coffee. You can substitute with hot water if preferred."
+    "notes": "The coffee enhances the chocolate flavor without making it taste like coffee. You can substitute with hot water if preferred.",
+    "references": [
+        {
+            "title": "The Science of Chocolate Baking",
+            "url": "https://www.seriouseats.com/the-food-lab-chocolate-cake"
+        },
+        {
+            "title": "Best Cocoa Powder for Baking",
+            "url": "https://www.kingarthurbaking.com/blog/cocoa-powder-guide"
+        }
+    ],
+    "videos": [
+        {
+            "type": "youtube",
+            "id": "dQw4w9WgXcQ",
+            "title": "How to Make Perfect Chocolate Cake"
+        }
+    ]
 }

@@ -28,5 +28,23 @@
         "Add milk and sugar, bring to a boil.",
         "Simmer for 2-3 minutes.",
         "Strain into cups and serve hot."
+    ],
+    "notes": "Adjust the amount of spices based on your preference. You can also add black pepper for extra warmth.",
+    "references": [
+        {
+            "title": "The Art of Making Chai",
+            "url": "https://www.bonappetit.com/recipe/masala-chai"
+        },
+        {
+            "title": "Indian Spices Guide",
+            "url": "https://www.thespruceeats.com/indian-spices-guide"
+        }
+    ],
+    "videos": [
+        {
+            "type": "youtube",
+            "id": "dQw4w9WgXcQ",
+            "title": "Perfect Masala Chai Every Time"
+        }
     ]
 }

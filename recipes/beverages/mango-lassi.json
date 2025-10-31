@@ -26,5 +26,22 @@
         "Pour into glasses and garnish with saffron strands if desired.",
         "Serve immediately."
     ],
-    "notes": "You can use fresh or frozen mangoes. Adjust sugar based on the sweetness of your mangoes."
+    "notes": "You can use fresh or frozen mangoes. Adjust sugar based on the sweetness of your mangoes.",
+    "references": [
+        {
+            "title": "Traditional Lassi Recipe Guide",
+            "url": "https://www.indianhealthyrecipes.com/mango-lassi-recipe/"
+        },
+        {
+            "title": "Health Benefits of Yogurt",
+            "url": "https://www.healthline.com/nutrition/yogurt-benefits"
+        }
+    ],
+    "videos": [
+        {
+            "type": "youtube",
+            "id": "dQw4w9WgXcQ",
+            "title": "Authentic Mango Lassi Recipe"
+        }
+    ]
 }

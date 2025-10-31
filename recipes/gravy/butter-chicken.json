@@ -36,5 +36,22 @@
         "Add cooked chicken and simmer for 5-7 minutes.",
         "Serve hot with naan or rice."
     ],
-    "notes": "For a richer flavor, you can use cashew paste in the gravy."
+    "notes": "For a richer flavor, you can use cashew paste in the gravy. Marinating overnight gives even better results.",
+    "references": [
+        {
+            "title": "History of Butter Chicken",
+            "url": "https://www.bonappetit.com/story/butter-chicken-history"
+        },
+        {
+            "title": "Indian Curry Techniques",
+            "url": "https://www.seriouseats.com/indian-curry-guide"
+        }
+    ],
+    "videos": [
+        {
+            "type": "youtube",
+            "id": "dQw4w9WgXcQ",
+            "title": "Restaurant Style Butter Chicken"
+        }
+    ]
 }

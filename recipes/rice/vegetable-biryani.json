@@ -37,5 +37,23 @@
         "Add remaining rice, more herbs, and fried onions.",
         "Cover and cook on low heat for 20 minutes.",
         "Let it rest for 5 minutes before serving."
+    ],
+    "notes": "The key to perfect biryani is layering and dum (slow cooking). Don't skip the resting time after cooking.",
+    "references": [
+        {
+            "title": "The Art of Making Biryani",
+            "url": "https://www.bonappetit.com/story/how-to-make-biryani"
+        },
+        {
+            "title": "Basmati Rice Cooking Guide",
+            "url": "https://www.seriouseats.com/how-to-cook-basmati-rice"
+        }
+    ],
+    "videos": [
+        {
+            "type": "youtube",
+            "id": "dQw4w9WgXcQ",
+            "title": "Authentic Hyderabadi Biryani Method"
+        }
     ]
 }

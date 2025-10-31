@@ -21,5 +21,27 @@
         "Step 2: Second instruction with details",
         "Step 3: Continue with more steps"
     ],
-    "notes": "Optional: Add any cooking tips, substitutions, or storage instructions here"
+    "notes": "Optional: Add any cooking tips, substitutions, or storage instructions here",
+    "references": [
+        {
+            "title": "Recipe Source or Inspiration",
+            "url": "https://example.com/recipe-source"
+        },
+        {
+            "title": "Cooking Technique Guide",
+            "url": "https://example.com/technique-guide"
+        }
+    ],
+    "videos": [
+        {
+            "type": "youtube",
+            "id": "VIDEO_ID_HERE",
+            "title": "How to Make This Recipe"
+        },
+        {
+            "type": "instagram",
+            "url": "https://www.instagram.com/p/POST_ID/",
+            "title": "Quick Recipe Demo"
+        }
+    ]
 }

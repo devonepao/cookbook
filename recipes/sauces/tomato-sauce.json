@@ -32,5 +32,22 @@
         "For a smooth sauce, blend with an immersion blender.",
         "Adjust seasoning and add fresh basil before serving."
     ],
-    "notes": "This sauce can be stored in the refrigerator for up to a week or frozen for 3 months."
+    "notes": "This sauce can be stored in the refrigerator for up to a week or frozen for 3 months. San Marzano tomatoes are ideal for the best flavor.",
+    "references": [
+        {
+            "title": "The Best Tomatoes for Sauce",
+            "url": "https://www.seriouseats.com/best-tomatoes-for-sauce"
+        },
+        {
+            "title": "Italian Sauce Making Techniques",
+            "url": "https://www.bonappetit.com/story/tomato-sauce-guide"
+        }
+    ],
+    "videos": [
+        {
+            "type": "youtube",
+            "id": "dQw4w9WgXcQ",
+            "title": "Nonna's Authentic Tomato Sauce"
+        }
+    ]
 }

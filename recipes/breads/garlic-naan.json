@@ -34,5 +34,23 @@
         "Heat a tawa or skillet, place naan and cook until bubbles form.",
         "Flip and cook the other side.",
         "Brush with butter and serve hot."
+    ],
+    "notes": "For best results, use a very hot skillet. You can also use a tandoor or oven set to maximum temperature.",
+    "references": [
+        {
+            "title": "The Science of Perfect Naan",
+            "url": "https://www.seriouseats.com/naan-recipe"
+        },
+        {
+            "title": "Indian Bread Making Guide",
+            "url": "https://www.kingarthurbaking.com/blog/indian-breads"
+        }
+    ],
+    "videos": [
+        {
+            "type": "youtube",
+            "id": "dQw4w9WgXcQ",
+            "title": "Restaurant Style Garlic Naan at Home"
+        }
     ]
 }

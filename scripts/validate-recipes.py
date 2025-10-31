@@ -47,6 +47,31 @@ def validate_recipe(recipe_path: Path) -> Tuple[bool, List[str]]:
     if 'instructions' in recipe and len(recipe['instructions']) == 0:
         errors.append("Instructions list is empty")
     
+    # Validate optional fields if present
+    if 'references' in recipe:
+        if not isinstance(recipe['references'], list):
+            errors.append("Field 'references' should be list")
+        else:
+            for i, ref in enumerate(recipe['references']):
+                if not isinstance(ref, dict):
+                    errors.append(f"Reference {i+1} should be an object")
+                elif 'title' not in ref or 'url' not in ref:
+                    errors.append(f"Reference {i+1} missing 'title' or 'url'")
+    
+    if 'videos' in recipe:
+        if not isinstance(recipe['videos'], list):
+            errors.append("Field 'videos' should be list")
+        else:
+            for i, video in enumerate(recipe['videos']):
+                if not isinstance(video, dict):
+                    errors.append(f"Video {i+1} should be an object")
+                elif 'type' not in video:
+                    errors.append(f"Video {i+1} missing 'type'")
+                elif video['type'] == 'youtube' and 'id' not in video:
+                    errors.append(f"YouTube video {i+1} missing 'id'")
+                elif video['type'] == 'instagram' and 'url' not in video:
+                    errors.append(f"Instagram video {i+1} missing 'url'")
+    
     # Validate ID matches filename
     expected_id = recipe_path.stem
     if 'id' in recipe and recipe['id'] != expected_id:
