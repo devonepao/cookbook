@@ -44,7 +44,14 @@
                         <path d="m21 21-4.35-4.35"></path>
                     </svg>
                     <input type="text" id="searchInput" placeholder="Search recipes..." class="search-input">
+                    <button id="clearSearch" class="clear-search" style="display: none;" aria-label="Clear search">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M15 9l-6 6M9 9l6 6"></path>
+                        </svg>
+                    </button>
                 </div>
+                <div id="searchResults" class="search-results" style="display: none;"></div>
             </div>
 
             <!-- Categories Grid -->

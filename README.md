@@ -45,58 +45,43 @@ cookbook/
 
 ## 🚀 Getting Started
 
-### 1. Clone or Download
+### Quick Start with GitHub Actions (Recommended)
+
+**Automated build and deployment with zero configuration!**
+
+1. **Push to GitHub:**
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
+
+2. **Enable GitHub Pages:**
+   - Go to Settings → Pages
+   - Source: **GitHub Actions**
+   - Save
+
+3. **Done!** Your site is live at `https://yourusername.github.io/cookbook/`
+
+**From now on:** Just add recipes and push - everything else is automatic!
+
+See [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md) for detailed setup.
+
+---
+
+### Local Development
+
+**For testing before pushing:**
 
 ```bash
-git clone <your-repo-url>
-cd cookbook
+# Build locally
+./build.sh
+
+# Test the build
+cd dist && python3 -m http.server 8000
 ```
 
-### 2. Start Local Server
-
-**Important:** This cookbook uses JSON files that require a web server to load properly.
-
-**Option 1: Use the start script (Easiest)**
-
-On Mac/Linux:
-```bash
-./start.sh
-```
-
-On Windows:
-```bash
-start.bat
-```
-
-**Option 2: Manual start**
-
-```bash
-# Python 3
-python3 -m http.server 8000
-
-# Then open: http://localhost:8000
-```
-
-**Option 3: Use any web server**
-
-```bash
-# Node.js
-npx serve
-
-# PHP
-php -S localhost:8000
-```
-
-**Note:** Do NOT open `index.html` directly (file:// protocol won't work). You must use a web server!
-
-### 3. Deploy to GitHub Pages
-
-1. Push to GitHub
-2. Go to Settings > Pages
-3. Select main branch
-4. Your site will be live at `https://yourusername.github.io/cookbook`
-
-Once deployed to GitHub Pages, it works perfectly without a local server!
+**For quick development:**
 
 # 📝 Adding New Recipes
 
@@ -260,7 +245,68 @@ See `recipes/desserts/chocolate-cake.json` for a complete example!
 
 Happy Cooking! 🍳
 
-## 🗂️ Adding New Categories
+## 🔧 Maintenance
+
+### Auto-Update Recipe Index
+
+When you add new recipes, run the update script to automatically register them:
+
+**Mac/Linux:**
+```bash
+./update-index.sh
+```
+
+**Windows:**
+```bash
+update-index.bat
+```
+
+**What it does:**
+- Scans all recipe JSON files
+- Validates each file
+- Updates `scripts/config.js` automatically
+- Shows summary by category
+
+See [UPDATE_INDEX_GUIDE.md](UPDATE_INDEX_GUIDE.md) for details.
+
+### Search Functionality
+
+The cookbook includes powerful search:
+- ✅ Real-time filtering as you type
+- ✅ Searches titles, descriptions, and ingredients
+- ✅ Clear button to reset search
+- ✅ Result count display
+- ✅ ESC key to clear
+- ✅ Mobile-optimized
+
+---
+
+## 🤖 CI/CD & Automation
+
+### GitHub Actions Workflow
+
+Every push to `main` branch automatically:
+1. ✅ Validates all recipe JSON files
+2. ✅ Updates recipe index
+3. ✅ Builds static site
+4. ✅ Deploys to GitHub Pages
+
+**You never need to manually update the index!**
+
+### Build Process
+
+```bash
+# Local build
+./build.sh
+
+# What it does:
+1. Validates recipes
+2. Updates index
+3. Builds dist/ folder
+4. Ready to deploy
+```
+
+See [CI_CD_GUIDE.md](CI_CD_GUIDE.md) for full details.
 
 1. Add category in `scripts/config.js`:
 

@@ -153,6 +153,7 @@ h1, h2, h3, h4, h5, h6 {
     gap: var(--spacing-sm);
     padding: var(--spacing-sm) var(--spacing-md);
     border-radius: var(--radius-md);
+    position: relative;
 }
 
 .search-icon {
@@ -172,6 +173,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .search-input::placeholder {
+    color: var(--apple-gray);
+}
+
+.clear-search {
+    background: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    color: var(--apple-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    border-radius: 50%;
+}
+
+.clear-search svg {
+    width: 20px;
+    height: 20px;
+}
+
+.clear-search:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: var(--apple-black);
+}
+
+.clear-search:active {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.search-results {
+    margin-top: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 14px;
     color: var(--apple-gray);
 }
 

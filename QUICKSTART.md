@@ -65,9 +65,15 @@ python3 -m http.server 8000
 }
 ```
 
-3. **Register your recipe** in `scripts/config.js`:
+3. **Register your recipe** with the auto-updater:
 
-Add to the `recipeFiles` array:
+```bash
+./update-index.sh
+```
+
+This automatically scans and registers your new recipe!
+
+**Or manually** in `scripts/config.js`:
 ```javascript
 recipeFiles: [
     'desserts/chocolate-cake',

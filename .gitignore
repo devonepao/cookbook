@@ -26,3 +26,14 @@ npm-debug.log*
 # Temporary files
 *.tmp
 *.temp
+
+# Build output
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/

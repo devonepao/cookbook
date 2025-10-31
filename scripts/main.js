@@ -132,20 +132,35 @@ function createRecipeCard(recipe) {
 // Setup search functionality
 function setupSearch() {
     const searchInput = document.getElementById('searchInput');
+    const clearButton = document.getElementById('clearSearch');
+    const searchResults = document.getElementById('searchResults');
     let searchTimeout;
     
+    // Handle input
     searchInput.addEventListener('input', (e) => {
         clearTimeout(searchTimeout);
+        const query = e.target.value.trim();
+        
+        // Show/hide clear button
+        clearButton.style.display = query.length > 0 ? 'block' : 'none';
+        
         searchTimeout = setTimeout(() => {
-            const query = e.target.value.trim();
-            
             if (query.length === 0) {
+                searchResults.style.display = 'none';
                 displayAllRecipes();
                 return;
             }
             
             const results = searchRecipes(query);
             const allRecipesGrid = document.getElementById('allRecipes');
+            
+            // Show result count
+            if (results.length > 0) {
+                searchResults.style.display = 'block';
+                searchResults.textContent = `Found ${results.length} recipe${results.length !== 1 ? 's' : ''} matching "${query}"`;
+            } else {
+                searchResults.style.display = 'none';
+            }
             
             if (results.length === 0) {
                 allRecipesGrid.innerHTML = `
@@ -159,6 +174,25 @@ function setupSearch() {
             
             allRecipesGrid.innerHTML = results.map(recipe => createRecipeCard(recipe)).join('');
         }, 300);
+    });
+    
+    // Handle clear button
+    clearButton.addEventListener('click', () => {
+        searchInput.value = '';
+        clearButton.style.display = 'none';
+        searchResults.style.display = 'none';
+        displayAllRecipes();
+        searchInput.focus();
+    });
+    
+    // Handle keyboard shortcuts
+    searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            searchInput.value = '';
+            clearButton.style.display = 'none';
+            searchResults.style.display = 'none';
+            displayAllRecipes();
+        }
     });
 }
 

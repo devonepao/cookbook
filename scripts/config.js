@@ -38,14 +38,14 @@ const RECIPES_CONFIG = {
     // Recipe Registry - List all recipe files here
     // Format: 'category/recipe-id'
     recipeFiles: [
-        'desserts/chocolate-cake',
-        'desserts/vanilla-ice-cream',
         'beverages/mango-lassi',
         'beverages/masala-chai',
+        'breads/garlic-naan',
+        'desserts/chocolate-cake',
+        'desserts/vanilla-ice-cream',
         'gravy/butter-chicken',
         'rice/vegetable-biryani',
-        'breads/garlic-naan',
-        'sauces/tomato-sauce'
+        'sauces/tomato-sauce',
     ],
     
     // Loaded recipes will be stored here
