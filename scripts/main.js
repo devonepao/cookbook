@@ -133,7 +133,12 @@ function createRecipeCard(recipe) {
 function setupSearch() {
     const searchInput = document.getElementById('searchInput');
     const clearButton = document.getElementById('clearSearch');
-    const searchResults = document.getElementById('searchResults');
+    const searchResultsInfo = document.getElementById('searchResults');
+    const searchResultsSection = document.getElementById('searchResultsSection');
+    const searchResultsGrid = document.getElementById('searchResultsGrid');
+    const categoriesSection = document.querySelector('.categories-section');
+    const featuredSection = document.querySelector('.featured-section');
+    const allRecipesSection = document.querySelector('.all-recipes-section');
     let searchTimeout;
     
     // Handle input
@@ -146,33 +151,44 @@ function setupSearch() {
         
         searchTimeout = setTimeout(() => {
             if (query.length === 0) {
-                searchResults.style.display = 'none';
-                displayAllRecipes();
+                // Clear search - show everything
+                searchResultsInfo.style.display = 'none';
+                searchResultsSection.style.display = 'none';
+                categoriesSection.style.display = 'block';
+                featuredSection.style.display = 'block';
+                allRecipesSection.style.display = 'block';
                 return;
             }
             
             const results = searchRecipes(query);
-            const allRecipesGrid = document.getElementById('allRecipes');
             
-            // Show result count
-            if (results.length > 0) {
-                searchResults.style.display = 'block';
-                searchResults.textContent = `Found ${results.length} recipe${results.length !== 1 ? 's' : ''} matching "${query}"`;
-            } else {
-                searchResults.style.display = 'none';
-            }
+            // Hide categories and all recipes when searching
+            categoriesSection.style.display = 'none';
+            allRecipesSection.style.display = 'none';
             
             if (results.length === 0) {
-                allRecipesGrid.innerHTML = `
+                // No results found
+                searchResultsInfo.style.display = 'none';
+                searchResultsSection.style.display = 'block';
+                searchResultsGrid.innerHTML = `
                     <div class="empty-state">
                         <div class="empty-state-icon">🔍</div>
                         <div class="empty-state-text">No recipes found for "${query}"</div>
                     </div>
                 `;
+                featuredSection.style.display = 'block'; // Keep featured visible
                 return;
             }
             
-            allRecipesGrid.innerHTML = results.map(recipe => createRecipeCard(recipe)).join('');
+            // Show results
+            searchResultsInfo.style.display = 'block';
+            searchResultsInfo.textContent = `Found ${results.length} recipe${results.length !== 1 ? 's' : ''} matching "${query}"`;
+            
+            searchResultsSection.style.display = 'block';
+            searchResultsGrid.innerHTML = results.map(recipe => createRecipeCard(recipe)).join('');
+            
+            // Keep featured recipes visible below search results
+            featuredSection.style.display = 'block';
         }, 300);
     });
     
@@ -180,8 +196,11 @@ function setupSearch() {
     clearButton.addEventListener('click', () => {
         searchInput.value = '';
         clearButton.style.display = 'none';
-        searchResults.style.display = 'none';
-        displayAllRecipes();
+        searchResultsInfo.style.display = 'none';
+        searchResultsSection.style.display = 'none';
+        categoriesSection.style.display = 'block';
+        featuredSection.style.display = 'block';
+        allRecipesSection.style.display = 'block';
         searchInput.focus();
     });
     
@@ -190,8 +209,11 @@ function setupSearch() {
         if (e.key === 'Escape') {
             searchInput.value = '';
             clearButton.style.display = 'none';
-            searchResults.style.display = 'none';
-            displayAllRecipes();
+            searchResultsInfo.style.display = 'none';
+            searchResultsSection.style.display = 'none';
+            categoriesSection.style.display = 'block';
+            featuredSection.style.display = 'block';
+            allRecipesSection.style.display = 'block';
         }
     });
 }

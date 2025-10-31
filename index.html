@@ -28,7 +28,7 @@
     <header class="glass-header">
         <div class="safe-area-top"></div>
         <div class="header-content">
-            <h1 class="header-title">Cookbook</h1>
+            <h1 class="header-title"><a href="index.html" class="header-link">Cookbook</a></h1>
             <p class="header-subtitle">Delicious recipes, beautifully crafted</p>
         </div>
     </header>
@@ -51,7 +51,15 @@
                         </svg>
                     </button>
                 </div>
-                <div id="searchResults" class="search-results" style="display: none;"></div>
+                <div id="searchResults" class="search-results-info" style="display: none;"></div>
+                
+                <!-- Search Results Section -->
+                <section id="searchResultsSection" class="search-results-section" style="display: none;">
+                    <h2 class="section-title">Search Results</h2>
+                    <div class="recipes-grid" id="searchResultsGrid">
+                        <!-- Search results will appear here -->
+                    </div>
+                </section>
             </div>
 
             <!-- Categories Grid -->

@@ -103,6 +103,20 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: -0.03em;
 }
 
+.header-link {
+    color: var(--apple-black);
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.header-link:hover {
+    opacity: 0.7;
+}
+
+.header-link:active {
+    opacity: 0.5;
+}
+
 .header-subtitle {
     color: var(--apple-gray);
     font-size: 17px;
@@ -203,11 +217,20 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(0, 0, 0, 0.1);
 }
 
-.search-results {
+.search-results-info {
     margin-top: var(--spacing-sm);
     padding: var(--spacing-sm) var(--spacing-md);
     font-size: 14px;
     color: var(--apple-gray);
+}
+
+.search-results-section {
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.search-results-section .section-title {
+    margin-bottom: var(--spacing-md);
 }
 
 /* Section Titles */
