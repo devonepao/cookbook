@@ -1,0 +1,50 @@
+{
+    "id": "sambhar-daal",
+    "title": "Sambhar Daal",
+    "category": "gravy",
+    "description": "A tangy and spicy South Indian lentil stew made with toor dal, mixed vegetables, and a fragrant tamarind-based broth. Perfect with idli, dosa, or steamed rice.",
+    "prepTime": "20 mins",
+    "cookTime": "30 mins",
+    "servings": "4",
+    "featured": false,
+    "images": [],
+    "ingredients": [
+        "1 cup toor dal (split pigeon peas)",
+        "2 cups mixed vegetables (drumstick, eggplant, tomato, pearl onions, carrot)",
+        "1 large tomato, chopped",
+        "1 small lemon-sized ball of tamarind (soaked in 1/2 cup warm water)",
+        "2 tbsp sambhar powder",
+        "1/4 tsp turmeric powder",
+        "Salt to taste",
+        "2 tbsp oil or ghee",
+        "1 tsp mustard seeds",
+        "1 tsp cumin seeds",
+        "2 dried red chilies",
+        "1 sprig curry leaves",
+        "1/2 tsp asafoetida (hing)",
+        "1 tbsp fresh coriander leaves, chopped"
+    ],
+    "instructions": [
+        "Wash the toor dal and pressure cook with turmeric, a pinch of salt, and 2.5 cups water for 3–4 whistles until soft. Mash well and set aside.",
+        "Soak tamarind in warm water for 10 minutes, then extract the juice and discard the pulp.",
+        "In a pot, add the tamarind water, chopped tomatoes, mixed vegetables, sambhar powder, and salt. Bring to a boil and cook until vegetables are tender (about 10–12 minutes).",
+        "Add the mashed toor dal to the pot and stir well. Simmer for 5 minutes, adjusting consistency with water if needed.",
+        "For the tempering: heat oil or ghee in a small pan. Add mustard seeds and let them splutter, then add cumin seeds, dried red chilies, curry leaves, and asafoetida. Sauté for 30 seconds.",
+        "Pour the tempering over the sambhar and stir to combine.",
+        "Garnish with fresh coriander leaves and serve hot with idli, dosa, or steamed rice."
+    ],
+    "notes": "For best flavour, use homemade sambhar powder. Drumstick (moringa) is a traditional favourite — add it along with the other vegetables. Sambhar thickens as it sits; thin it out with a little water when reheating.",
+    "references": [
+        {
+            "title": "Sambhar Recipe – Dassana's Veg Recipes",
+            "url": "https://www.vegrecipesofindia.com/sambar-recipe-hotel-style-sambar/"
+        }
+    ],
+    "videos": [
+        {
+            "type": "youtube",
+            "id": "ezKHdfIkHuw",
+            "title": "Sambhar Daal Recipe"
+        }
+    ]
+}

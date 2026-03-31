@@ -44,6 +44,7 @@ const RECIPES_CONFIG = {
         'desserts/chocolate-cake',
         'desserts/vanilla-ice-cream',
         'gravy/butter-chicken',
+        'gravy/sambhar-daal',
         'rice/vegetable-biryani',
         'sauces/tomato-sauce',
     ],
